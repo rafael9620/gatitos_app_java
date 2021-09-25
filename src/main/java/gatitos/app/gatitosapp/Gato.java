@@ -10,9 +10,18 @@ package gatitos.app.gatitosapp;
  * @author FranciscoR
  */
 public class Gato {
+
     private int idGato;
     private String url;
-    private final String KEY ="979887f9-7d8c-40a5-98a7-7a85d19eb2ed";
+    private String KEY = "979887f9-7d8c-40a5-98a7-7a85d19eb2ed";
+
+    public String getKEY() {
+        return KEY;
+    }
+
+    public void setKEY(String KEY) {
+        this.KEY = KEY;
+    }
     private String image;
 
     public int getIdGato() {
